@@ -1,0 +1,40 @@
+.navbar-brand {
+  font-family: "lucida handwriting", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  background-color: white;
+  display: none;
+  position: absolute;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.dropdown:hover .dropdownContent {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.dropdownContent a:hover {
+  background-color: skyblue;
+  color: white;
+}
+.dropdownContent a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 1px;
+  justify-self: center;
+}
+.icon {
+  padding-left: 20px;
+  float: left;
+}

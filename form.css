@@ -1,0 +1,55 @@
+.join {
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://webpulse.imgsmail.ru/imgpreview?key=pic1275997436178509914&mb=pulse);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.join h1 {
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+}
+
+label {
+  margin-left: 500px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+input {
+  border: 1px solid black;
+  width: 400px;
+  height: 50px;
+  margin: 15px;
+  display: block;
+  margin-left: 500px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.join button {
+  margin: 20px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgb(18, 98, 237);
+  color: #fff;
+}
+input::placeholder {
+  padding-left: 10px;
+}

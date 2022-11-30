@@ -1,0 +1,72 @@
+.links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  float: right;
+  color: black;
+}
+.carousel-caption h1 {
+  color: white;
+  font-size: 100px;
+}
+.titlle {
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.carousell {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.footer {
+  display: flex;
+  align-items: flex-end;
+  background-color: dodgerblue;
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+.footertxt {
+  margin: 0 auto;
+  color: white;
+}
+.navbar-brand {
+  font-family: "lucida handwriting", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  background-color: white;
+  display: none;
+  position: absolute;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.dropdown:hover .dropdownContent {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.dropdownContent a:hover {
+  background-color: skyblue;
+  color: white;
+}
+.dropdownContent a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 1px;
+  justify-self: center;
+}
+.icon {
+  padding-left: 20px;
+  float: left;
+}
